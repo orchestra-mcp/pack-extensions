@@ -1,0 +1,14 @@
+{
+    "name": "orchestra-mcp/pack-extensions",
+    "description": "Extension system skills for native, Raycast, and VS Code compatibility",
+    "version": "0.1.0",
+    "type": "pack",
+    "license": "MIT",
+    "stacks": ["*"],
+    "contents": {
+        "skills": ["native-extensions", "raycast-compat", "vscode-compat", "extension-marketplace"],
+        "agents": ["extension-architect"],
+        "hooks": []
+    },
+    "tags": ["extensions", "marketplace", "raycast", "vscode", "plugins"]
+}
